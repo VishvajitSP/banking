@@ -22,7 +22,7 @@ public class YahooMail {
 	  driver.manage().window().maximize();
 	  driver.findElement(By.id("login-signin")).click();
 	  Thread.sleep(3000);
-	  driver.findElement(By.id("login-passwd")).sendKeys("Jeet@1994");
+	  driver.findElement(By.id("login-passwd")).sendKeys("******");
 	  Thread.sleep(3000);
 	  driver.findElement(By.id("login-signin")).click();
 	  Thread.sleep(3000);
