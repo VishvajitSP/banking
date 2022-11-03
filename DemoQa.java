@@ -50,6 +50,8 @@ public class DemoQa {
   public void beforeMethod() {
 	  System.setProperty("webdriver.chrome.driver", "V:\\Vishvajit\\JavaPracticeNeon\\WebDriverTrainingInterview\\test\\resources\\chromedriver.exe");
 	  driver=new ChromeDriver();
+	 System.out.println("Inside before method after commit");
+	
   }
 
   @AfterMethod
